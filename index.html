@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Katseye</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+</head>
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center" >
+            <img src="KATSEYE_dark_2024.webp" class="nav-img " loading="lazy">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Conheça o Katseye">Conheça o Katseye</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+            <div id="acessibilidade" class="menu-acessibilidade"> 
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>         
+                </div>
+            </div>
+        </nav>
+       
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+<h1 class="display-4 text-white fst-italic fw-bold">Katseye World</h1> <img src="katseye.jpg" class="mb-3" width="400"
+                        height="278" loading="lazy">
+                    <a href="#Katseye"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                        conhecer!</a>
+                </div>
+                <img src="HEADER-KATSEYE-TEENVOGUE.webp" alt="A imagem apresenta o grupo musical Os mutantes, sao tres pessoas cantando em um microfone" title="Os mutantes - CC0 Domínio Público / Acervo Arquivo Nacional" class="img-fluid img-inicio">
+
+              </div>
+        </section>
+
+        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção explicativa sobre a tropicália">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center ">
+                    <img src="images.jpg" class="rounded-pill" width="300" height="300" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>Quem é o Katseye?</h2>
+                    <p class="p-2">O katseye é um grupo global, formado pela Hybe Entertainment em 2023/2024, composto por 6 integrantes, Megan, Manon, Lara, Sophie, Yoonchae e Daniela</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Conheça o Katseye" tabindex="0" aria-label="Seção de galeria de imagens">
+            <h2 class="text-center pt-5">Conheça o Katseye</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+                <main class="container mt-5">
+    <div class="row">
+      <!-- Projeto 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="daniela.webp" class="card-img-top" alt="imagem do projeto">
+          <div class="card-body">
+            <h5 class="card-title">Daniela</h5>
+            <p class="card-text">Conheça a Daniela</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">
+              veja mais
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="MEGAN.avif" class="card-img-top" alt="imagem do projeto">
+          <div class="card-body">
+            <h5 class="card-title">Megan</h5>
+            <p class="card-text">Conheça a Megan</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">
+              veja mais
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="LARA RAJ - Copia.jpg" class="card-img-top" alt="imagem do projeto">
+          <div class="card-body">
+            <h5 class="card-title">Lara</h5>
+            <p class="card-text">Conheça a Lara</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">
+              veja mais
+            </button>
+          </div>
+        </div>
+      </div>
+
+    <!-- Projeto 4 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="sophie.jpg" class="card-img-top" alt="imagem do projeto">
+          <div class="card-body">
+            <h5 class="card-title">Sophie</h5>
+            <p class="card-text">Conheça a Sophie</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal4">
+              veja mais
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 5 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="yoonchae 2.jpg" class="card-img-top" alt="imagem do projeto">
+          <div class="card-body">
+            <h5 class="card-title">Yoonchae</h5>
+            <p class="card-text">Conheça a Yoonchae</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal5">
+              veja mais
+            </button>
+          </div>
+        </div>
+      </div>
+
+       <!-- Projeto 6 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="MANON 2.jpg" class="card-img-top" alt="imagem do projeto">
+          <div class="card-body">
+            <h5 class="card-title">Manon</h5>
+            <p class="card-text">Conheça a Manon</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal6">
+              veja mais
+            </button>
+          </div>
+        </div>
+      </div>
+
+       </main>
+
+  <!-- Modal 1 -->
+  <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Daniela</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Daniela Andrea Avanzini Llorente (nascida em 1 de julho de 2004), conhecida mononimamente como Daniela , é uma cantora e dançarina americana. Ela começou sua carreira como dançarina profissional e foi finalista top 10 na 13ª temporada da série de competição de dança So You Think You Can Dance . Como cantora, estreou como membro do grupo feminino Katseye , formado através do reality show Dream Academy de 2023 , criado pela Hybe e Geffen Records .</p>
+          <img src="daniela cardd.jpg" class="img-fluid">
+        </div>
+        <div class="modal-footer">
+          <a href="https://youtu.be/8IqOIq6mPwg?feature=shared" class="btn btn-outline-primary">Daniela's Intro</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Modal 2 -->
+  <div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Megan</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Megan (메간) é uma cantora, dançarina e atriz americana, assinada pela HYBE e Geffen Records . Ela é integrante do grupo feminino KATSEYE .
+Ela também é conhecida por participar do programa de sobrevivência The Debut: Dream Academy .</p>
+          <img src="megan card.jpg" class="img-fluid">
+        </div>
+        <div class="modal-footer">
+          <a href="https://youtu.be/_YdSz-B2yyk?feature=shared" class="btn btn-outline-primary">Megan's intro</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Lara</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lara (라라) é uma cantora americana da gravadora HYBE e Geffen Records . Ela é integrante do grupo feminino KATSEYE .
+Ela também é conhecida por participar do programa de sobrevivência The Debut: Dream Academy .</p>
+          <img src="lara card.jpg" class="img-fluid">
+        </div>
+        <div class="modal-footer">
+          <a href="https://youtu.be/_lKKx3O30oI?feature=shared" class="btn btn-outline-primary">Lara's Intro</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div class="modal fade" id="modal4" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Sophie</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Sophia (소피아) é uma cantora filipino-americana, sob a gravadora HYBE e a Geffen Records . Ela é a líder do grupo feminino KATSEYE .
+Ela também é conhecida por participar do programa de sobrevivência The Debut: Dream Academy .</p>
+          <img src="sophie card.jpg" class="img-fluid">
+        </div>
+        <div class="modal-footer">
+          <a href="https://youtu.be/GQljCxy3AGM?feature=shared" class="btn btn-outline-primary">Sophie's Intro</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div class="modal fade" id="modal5" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Yoonchae</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Yoonchae (윤채) é uma cantora sul-coreana da gravadora HYBE e Geffen Records . Ela é a mais nova do grupo feminino KATSEYE . Ela também é conhecida por participar do programa de sobrevivência The Debut: Dream Academy .</p>
+          <img src="yoonchae card.jpg" class="img-fluid">
+        </div>
+        <div class="modal-footer">
+          <a href="https://youtu.be/DevfWFuK-LY?feature=shared" class="btn btn-outline-primary">Yoonchae's Intro</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div class="modal fade" id="modal6" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Manon</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Manon (마농) é uma cantora suíça sob a gravadora HYBE e Geffen Records . Ela é membro do grupo feminino KATSEYE . Ela também é conhecida por participar do programa de sobrevivência The Debut: Dream Academy .</p>
+          <img src="megan card.jpg" class="img-fluid">
+        </div>
+        <div class="modal-footer">
+          <a href="https://youtu.be/_lKKx3O30oI?feature=shared" class="btn btn-outline-primary">Lara's Intro</a>
+        </div>
+      </div>
+    </div>
+  </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i> <p>99999-9999</p>
+        <i class="bi bi-instagram"></i> <p>Larasblooming</p>
+        <i class="bi bi-tiktok"></i> <p>lariybes</p>
+        <p class="mt-3">Desenvolvido por Lara. Projeto feito apenas para aula do Marco Antônio.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="script.js"></script>
+    <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</body>
+
+</html>
